@@ -1,1 +1,6 @@
-# Cherry pick commands:
+# Cherry pick:
+    Cherry picking is the act of picking a commit from a branch and applying it to another.
+
+# Command:
+    git cherry-pick {commit-hash}
+
