@@ -21,9 +21,20 @@ Create a feature branch:
 Change the branch:
      git checkout <branch_name>
 
+Delete a feature branch:
+     git branch -d <branch-name>
+     git branch -D <branch-name> 
+     Note: '-D' indicates forceful deletion of the branch
+
+Delete a remote branch:
+     git push --delete origin <branch-name>
+     git push -d origin <branch-name>
+     Note: '-D' indicates forceful deletion of the branch  
+
 Setup a remote repository:
      git remote add upstream <url to the organization remote repository>
      Note: ‘upstream’ is the conventional name chosen for a remote, it can be anything
 
 Fetch the upstream:
      git fetch upstream
+
