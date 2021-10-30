@@ -1,3 +1,3 @@
-# git-workflow
-This repository contains few important git commands 
+# Git workflow
+This repository contains overview of git commands 
 
