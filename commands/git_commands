@@ -1,0 +1,29 @@
+Download the git:
+     https://git-scm.com/downloads
+
+Check git version:
+     git --version
+
+Fork the repository:
+     Click on the Fork button in the upper right hand corner to fork any repository
+
+Clone a repository:
+     git clone <url to the project repository on your personal github profile>
+     Note: url ends with '.git'
+
+View the branch:
+     git branch
+
+Create a feature branch:
+     git checkout -b feature/<feature_branch_name>
+     Note: '-b' is important to create the new branch
+
+Change the branch:
+     git checkout <branch_name>
+
+Setup a remote repository:
+     git remote add upstream <url to the organization remote repository>
+     Note: ‘upstream’ is the conventional name chosen for a remote, it can be anything
+
+Fetch the upstream:
+     git fetch upstream
