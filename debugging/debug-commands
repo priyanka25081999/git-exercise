@@ -1,0 +1,22 @@
+# Git debugging commands
+-------------------------------------------------------------------------
+
+1. git log:
+   git log <options>
+   This command is used to show all commit logs.
+   
+   One of the most famous formatting option to view the commit logs in oneline is:
+   git log --oneline
+
+2. git blame:
+   git blame <file-name>
+   It's a tool mostly used in annotated files to track the author which last modified the file
+
+   Specify the range:
+   git blame -L <range> <file-name>
+   Example:
+   git blame -L 200,350 test_file.txt
+
+
+ 
+   
