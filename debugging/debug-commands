@@ -1,5 +1,5 @@
-# Git debugging commands
-------------------------
+Git debugging commands
+----------------------
 
 1. git log:
    git log <options>
@@ -20,4 +20,7 @@
    Ignore whitspaces:
    git blame -w <file-name>
 
-   
+3. git bisect:
+   git bisect <subcommand> 
+   This command is used to identify a commit that introduced a bug
+   Most commonly used subcommads are - start, good, bad, reset.   
