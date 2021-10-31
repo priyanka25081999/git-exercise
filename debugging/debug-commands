@@ -1,5 +1,5 @@
 # Git debugging commands
--------------------------------------------------------------------------
+------------------------
 
 1. git log:
    git log <options>
@@ -17,6 +17,7 @@
    Example:
    git blame -L 200,350 test_file.txt
 
+   Ignore whitspaces:
+   git blame -w <file-name>
 
- 
    
