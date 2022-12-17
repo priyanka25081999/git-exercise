@@ -44,3 +44,6 @@ Squash the commits:
      pick 12c6625a104 final commit 1
      squash d468a067344 final commit 2
      git push -f
+
+To update the remote URL:
+     git remote set-url origin <remote_repo_url>
