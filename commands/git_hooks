@@ -1,0 +1,9 @@
+Git Hooks:
+1. Git hooks allows us to run custom scripts whenever any important events occur in the git-lifecycle such as commiting, merging and pushing.
+2. Pre-commit, Pre-push hooks and many other hooks are there.
+3. We can find hook directory inside .git folder. If we want to execute any hook, then first we need to remove the .sample extension from the respective file
+then we need to make it executable and finally we can run the hooks.
+
+Example:
+1. During git commit if we have set the pre-commit hook and if we pass incorrect username or email, then pre-commit hook will throw an error by saying 
+username or email is incorrect. It helps us to avoid such mistakes and increase productivity
