@@ -24,3 +24,8 @@
 
     // change the base branch to new branch
     git rebase --onto new-base-branch current-base-branch
+
+    // rebase with feature branch
+    git pull origin <feature-branch-name> --rebase=true
+    git pull origin <your-branch-to-be-rebased-with-feature-branch>  --rebase=true
+
