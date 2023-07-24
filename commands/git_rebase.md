@@ -21,3 +21,6 @@
     git log
     git status
     git push -f origin <local_branch>
+
+    // change the base branch to new branch
+    git rebase --onto new-base-branch current-base-branch
