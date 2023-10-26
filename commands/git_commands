@@ -29,7 +29,12 @@ Delete a feature branch:
 Delete a remote branch:
      git push --delete origin <branch-name>
      git push -d origin <branch-name>
-     Note: '-D' indicates forceful deletion of the branch  
+     Note: '-D' indicates forceful deletion of the branch
+
+Delete a branch whose name matches a certain pattern:
+     git branch -D $(git branch --list '<regex_here>')
+     Example: git branch -D $(git branch --list 'ps/*')
+     Deletes all branches with name starting with ps/.
 
 Setup a remote repository:
      git remote add upstream <url to the organization remote repository>
