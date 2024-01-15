@@ -29,3 +29,7 @@
     git pull origin <feature-branch-name> --rebase=true
     git pull origin <your-branch-to-be-rebased-with-feature-branch>  --rebase=true
 
+    // Revert an author of pushed commit
+    // First set the git config with the author name and email that you want to commit
+    git commit --amend --reset-author
+
