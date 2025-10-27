@@ -45,7 +45,7 @@ Fetch the upstream:
 
 Squash the commits:
      git rebase -i HEAD~2
-     // in the file do following:
+     // in the file, do following:
      pick 12c6625a104 final commit 1
      squash d468a067344 final commit 2
      git push -f
