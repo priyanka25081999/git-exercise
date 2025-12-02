@@ -52,3 +52,6 @@ Squash the commits:
 
 To update the remote URL:
      git remote set-url origin <remote_repo_url>
+
+Unstage/Remove the file from the commit:
+     git reset HEAD^ -- <file/path>
